@@ -3,7 +3,8 @@
 This project provides shared library which can be used into Jenkins pipeline.
 
 Setup instructions
-
+--
+--
 1. In Jenkins, go to Manage Jenkins → Configure System. Under Global Pipeline Libraries, add a library with the following settings:
   * Library name: jenkins-pipeline-shared-lib-sample
   * Default version: Specify a Git reference (branch or commit SHA), e.g. master

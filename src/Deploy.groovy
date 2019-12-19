@@ -7,7 +7,7 @@ class Deployer {
 
     def run() {
         while (tries < 10) {
-            Thread.sleep(1000)
+            Thread.sleep(1000);
             tries++
             script.echo("tries is numeric: " + StringUtils.isAlphanumeric("" + tries))
         }
